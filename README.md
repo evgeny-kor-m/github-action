@@ -109,11 +109,11 @@ docker ps -a
 - Docker Pull the new image
 
 ```
-docker pull dinghy123/app-node:66c3b6f8e01090562913da81e918be9e06f1e045
-docker images
+docker pull dinghy123/app-node:66c3b6f8e01090562913da81e918be9e06f1e045  
+docker images  
 docker ps
-docker run -d -p 3300:3000  dinghy123/app-node:66c3b6f8e01090562913da81e918be9e06f1e045
-docker ps
+docker run -d -p 3300:3000  dinghy123/app-node:66c3b6f8e01090562913da81e918be9e06f1e045  
+docker ps  
 ```
 - Go to browser http://localhost:3300/
   - Output **Hello, World test-01!** 
