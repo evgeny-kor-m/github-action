@@ -81,7 +81,7 @@ jobs:
           context: ./lesson-cicd/practice-04  # Path to the Dockerfile and build context
           push: true
           tags: |
-            dinghy123/app-node:${{ github.sha }}
+            <dockerhub-account>/app-node:${{ github.sha }}
       - name: Logout from Docker Hub
         run: docker logout
 ```
