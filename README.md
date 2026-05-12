@@ -109,10 +109,10 @@ docker ps -a
 - Docker Pull the new image
 
 ```
-docker pull dinghy123/app-node:66c3b6f8e01090562913da81e918be9e06f1e045  
+docker pull evgenykorchev/app-node:2edf46dc10979e3d32c9306d2a2b27b1b0eae57e  
 docker images  
 docker ps
-docker run -d -p 3300:3000  dinghy123/app-node:66c3b6f8e01090562913da81e918be9e06f1e045  
+docker run -d -p 3300:3000  evgenykorchev/app-node:2edf46dc10979e3d32c9306d2a2b27b1b0eae57e  
 docker ps  
 ```
 - Go to browser http://localhost:3300/
