@@ -28,7 +28,8 @@ jobs:
           context: .  # Path to the Dockerfile and build context
           push: true
           tags: |
-            evgenykorchev//app-node:${{ github.sha }}
+            evgenykorchev/app-node:${{ github.sha }}
+
 
       - name: Logout from Docker Hub
         run: docker logout
